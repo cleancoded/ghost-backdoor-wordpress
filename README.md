@@ -1,7 +1,7 @@
 # Ghost Backdoor Wordpress Plugin
 
 **Contributors**:
-* CLEANCODED[https://cleancoded.com]
+* [CLEANCODED](https://cleancoded.com/)
 
 **Tested On**:
 * Version 4.9.4
