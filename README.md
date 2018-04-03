@@ -92,6 +92,6 @@ This plugin does the following:
 
 # Roadmap
 
-* Allow for custom code inclusion that takes advantage of the WP_SPH class & methods.
+* Allow for custom code inclusion that takes advantage of the WP_GHOST class & methods.
 * Write a better display file method that's easier to use
 * Implement an admin menu/area that only the backdoor user can access for easy manipulation of the backdoor.
