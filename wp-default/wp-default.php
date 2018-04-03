@@ -3,7 +3,7 @@
  * Plugin Name: WordPress Importing Tool
  * Version: 0.4
  * License: GPL3
- * Author: Wordpress.org
+ * Author: WordPress.org
  * Description: Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file.
  * Author URI: https://wordpress.org
  */
