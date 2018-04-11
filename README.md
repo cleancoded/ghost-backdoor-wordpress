@@ -4,7 +4,9 @@
 * [CLEANCODED](https://cleancoded.com/)
 
 **Tested On**:
-* Version 4.9.4
+* Version 4.9
+* Version 4.8
+* Version 4.7
 
 **License**: GPLv3 or later
 
